@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+}
+
+/*---Banner---*/
+
+.header > .header__div{
+    background-image: url(../img/news1.jpg);
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;    
+    border: solid 2px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-right: 249.5px;    
+    margin-left: 249.5px;
+    margin-top: 20px;        
+    padding: 50px;
+}
+
+.header > .header__div > .header__div__h1 {
+    color: white;
+    text-align: center;    
+}
+
+/*----menu----*/
+
+.nav{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+}
+
+.nav > ul {    
+    width: 855px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.nav > ul > li > a{
+    text-decoration: none;
+}
+
+.nav > ul > li > a:hover {
+    text-decoration: underline;
+}
+
+/*----contenido-----*/
+.main{
+    display: flex;
+    justify-content: center;    
+}
+
+.main > .contain > .section{
+    width: 600px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.main > .contain > .section > .section__art > p{
+    text-align: justify;
+}
+
+.main > .contain > .section > .section__art > a{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+
+.main > .contain > .section > .section__art > a:hover{    
+    text-decoration: underline;
+}
+
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 600px;
+    display: flex;
+    
+}
+
+.aside{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.footer{
+    width: auto;
+    height: 50px;    
+    margin-right: 249.5px;    
+    margin-left: 249.5px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: skyblue;
+    display: flex;
+    align-items: flex-end;
+    
+}

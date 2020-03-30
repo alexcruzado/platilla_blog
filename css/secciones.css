@@ -1,0 +1,39 @@
+.main{
+    display: flex;
+    justify-content: center;
+    border: solid 2px black;
+}
+
+.main > .contain > .section{
+    width: 300px;
+    height: auto;    
+    display: flex;    
+    justify-content: space-between;        
+    flex-direction: column;
+}
+
+.main > .contain > .section > .section__art > p{
+    text-align: justify;
+}
+
+.main > .contain > .section > .section__art > a{
+    display: flex;
+    justify-content: flex-end;
+}
+
+hr{
+    width: 300px;
+    display: flex;
+    
+}
+
+.aside{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 400px;
+}
+
+
+
+

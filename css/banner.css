@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+}
+
+.header > .header__div{
+    background-image: url(../img/news1.jpg);
+    width: auto;
+    height: auto;    
+    border: solid 2px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-right: 249.5px;    
+    margin-left: 249.5px;
+    margin-top: 20px;        
+    padding: 50px;
+}
+
+.header > .header__div > .header__div__h1 {
+    color: white;
+    text-align: center;    
+}

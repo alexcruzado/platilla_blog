@@ -1,0 +1,7 @@
+.footer{
+    width: auto;
+    height: 50px;
+    background-color: skyblue;
+    display: flex;
+    align-items: flex-end;
+}
